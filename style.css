@@ -49,7 +49,8 @@ header {
 }
 
 .footer {
-  max-width: 400px;
+  max-width: 100%;
+  width: 400px;
   margin: auto;
   padding: 2px;
   text-align: center;
