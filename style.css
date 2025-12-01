@@ -1,0 +1,72 @@
+body {
+  animation-play-state: paused;
+  padding: 0;
+  margin: 0;
+  background-color: #FFF9ED;
+  opacity: 0;
+  animation: anim 1s ease-out forwards;
+}
+
+@keyframes anim {
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+    background-color: #8AC926;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: right;
+}
+
+.cont1 {
+  font-family: Nunito;
+  display: flex;
+  max-width: auto;
+  margin: 10px;
+  margin-inline: 40px;
+}
+
+.cont {
+  flex:50%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.cont2 {
+  flex: 50%;
+  text-align: center;
+}
+
+.top {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  background-color: #8AC926;
+}
+
+.footer {
+  max-width: 400px;
+  margin: auto;
+  padding: 2px;
+  text-align: center;
+}
+
+footer {
+  background-color: #8AC926;
+  font-family: Archivo Black;
+  color: #FFF9ED;
+  font-size: 15px;
+}
+
+section {
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 1400px;
+}
