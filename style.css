@@ -77,3 +77,18 @@ section {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 768px) {
+
+  .cont1 {
+    margin-inline: 10px;
+    flex-direction: column;
+  }
+
+  .cont, 
+  .cont2 {
+    flex: 1 1 100%;
+    margin: 0; 
+  }
+
+}
